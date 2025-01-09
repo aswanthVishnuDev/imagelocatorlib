@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="my_imagelocatorlib",
+    name="imagelocatorlib",
     version="0.1.0",
     author="Aswanth",
     author_email="aswanth.ravikumarjaya@nttdata.com",
@@ -16,6 +16,8 @@ setup(
     install_requires=[
         "pyautogui >= 0.9.54",
         "PyScreeze >= 1.0.1",
+        "pillow >= 11.1.0",
+        "opencv-python >= 4.10.0.84",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
